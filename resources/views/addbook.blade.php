@@ -40,7 +40,7 @@
                                 <div class="form-group">
                                     <label for="file">Chose Cover Image: </label>
                                     <input type="file" name="file" class="form-control" onchange="previewFile(this)" />
-
+                                    <img id="previewImg" alt="" style="max-width:130px;margin-top:20px;" />
                                 </div>
                                 <button type="submit" style="margin-top:20px;" class="btn btn-success">Submit</button>
                             </form>

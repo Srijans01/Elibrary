@@ -19,7 +19,7 @@
                             <table class="table table-sm table-borderless mb-0">
                             <tbody>
                                 <th class="pl-0 w-25" scope="row"><strong>Cover Image:</strong></th>
-                                <td class="d-flex justify-content-center"><img src="{{asset('images')}}/{{$forme->profilephoto}}" /></td>
+                                <td class="d-flex justify-content-center"><img src="{{asset('images')}}/{{$forme->profilephoto}}"  style="max-width:130px;margin-top:20px;"/></td>
                                 </tr>
                                 <tr>
                                 <tr>
